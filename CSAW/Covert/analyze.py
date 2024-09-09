@@ -38,6 +38,9 @@ if __name__ == "__main__":
     start_packet = 265
     end_packet = 305
     ids = extract_identification_field(pcap_file, start_packet, end_packet)
+
+    # each encoded message is a number n * k where k is 2 digits and n is the original message
+    # brute force approach to find a k where k divides n for every n in message
     for i in range(99, 10, -1):
         out = ""
         for id in ids:
