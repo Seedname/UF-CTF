@@ -45,4 +45,5 @@ if __name__ == "__main__":
             if id % i != 0:
                 break
             out += chr(id // i)
-        print(out)
+        if 'csawctf' in out:
+            print(out) # csawctf{licen$e_t0_tr@nsmit_c0vertTCP$$$}
