@@ -51,4 +51,4 @@ if __name__ == "__main__":
         else:
             if 'csawctf' in out:
                 print(out) # csawctf{licen$e_t0_tr@nsmit_c0vertTCP$$$}
- 
+
